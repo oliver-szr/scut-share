@@ -1,0 +1,54 @@
+# Local configuration (keep examples)
+.env
+.env.*
+!.env.example
+
+# Node / frontend
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Python environments / caches
+.venv/
+venv/
+env/
+scut_share_env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp/
+backend/.pytest-tmp*/
+backend/*pytest-tmp*/
+backend/.phase*-preflight*/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Runtime data
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+backend/data/
+uploads/
+backend/uploads/
+
+# Local tooling / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+.local/
+
+# Local phase verification records and screenshots
+docs/phase*-verification.md
+docs/phase*.jpg
+docs/final-acceptance.md
